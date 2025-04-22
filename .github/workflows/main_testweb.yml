@@ -25,7 +25,7 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.5
 
       - name: Restore NuGet packages
-        run: nuget restore WebSite1\WebSite1(1).sln
+        run: nuget restore WebSite1(1).sln
         
 
       - name: Publish to folder
